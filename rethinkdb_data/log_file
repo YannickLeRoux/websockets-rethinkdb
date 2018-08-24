@@ -69,3 +69,72 @@
 2018-08-24T16:00:06.146227000 2.060121s info: Table d30d2f1a-438f-4af3-8b7d-2e8f5707d515: Starting a new Raft election for term 3.
 2018-08-24T16:00:06.184432000 2.098325s info: Table d30d2f1a-438f-4af3-8b7d-2e8f5707d515: This server is Raft leader for term 3. Latest log index is 6.
 2018-08-24T16:52:06.347399000 3122.167458s info: Table d30d2f1a-438f-4af3-8b7d-2e8f5707d515: Configuration is changing.
+2018-08-24T17:29:40.641380000 5376.393719s notice: Server got SIGINT from pid 17388, uid 501; shutting down...
+2018-08-24T17:29:40.641532000 5376.393871s notice: Shutting down client connections...
+2018-08-24T17:29:40.641834000 5376.394173s notice: All client connections closed.
+2018-08-24T17:29:40.641846000 5376.394184s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-08-24T17:29:40.648387000 5376.400726s notice: Storage engine shut down.
+2018-08-24T17:29:41.663307000 0.015909s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2018-08-24T17:29:41.670856000 0.023452s notice: Running on Darwin 17.5.0 x86_64
+2018-08-24T17:29:41.670939000 0.023534s notice: Loading data from directory /Users/yannickleroux/Development/websockets-rethinkdb/rethinkdb_data
+2018-08-24T17:29:41.719281000 0.071875s info: Automatically using cache size of 218 MB
+2018-08-24T17:29:41.719857000 0.072451s notice: Listening for intracluster connections on port 29015
+2018-08-24T17:29:41.763490000 0.116083s notice: Listening for client driver connections on port 28015
+2018-08-24T17:29:41.763860000 0.116453s notice: Listening for administrative HTTP connections on port 8080
+2018-08-24T17:29:41.763863000 0.116456s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-08-24T17:29:41.763866000 0.116458s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-08-24T17:29:41.763881000 0.116474s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-08-24T17:29:41.763908000 0.116500s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-08-24T17:29:41.763911000 0.116503s notice: Server ready, "yannicks_macbook_pro_home_x8s" ac796651-4e55-4ec6-83f3-8dfbcc98983c
+2018-08-24T17:29:42.841877000 1.194438s info: Table d30d2f1a-438f-4af3-8b7d-2e8f5707d515: Starting a new Raft election for term 4.
+2018-08-24T17:29:42.874315000 1.226875s info: Table d30d2f1a-438f-4af3-8b7d-2e8f5707d515: This server is Raft leader for term 4. Latest log index is 10.
+2018-08-24T17:29:43.032233000 1.384788s info: Table 9679500b-29ce-467b-9830-607f48d4f48a: Starting a new Raft election for term 4.
+2018-08-24T17:29:43.061264000 1.413818s info: Table 9679500b-29ce-467b-9830-607f48d4f48a: This server is Raft leader for term 4. Latest log index is 9.
+2018-08-24T17:29:43.650064000 2.002600s info: Table 5a8ead5f-a3e7-460a-9a56-13e0d831ebca: Starting a new Raft election for term 4.
+2018-08-24T17:29:43.677368000 2.029904s info: Table 5a8ead5f-a3e7-460a-9a56-13e0d831ebca: This server is Raft leader for term 4. Latest log index is 9.
+2018-08-24T17:39:37.899124000 596.233904s notice: Server got SIGINT from pid 17388, uid 501; shutting down...
+2018-08-24T17:39:37.899389000 596.234168s notice: Shutting down client connections...
+2018-08-24T17:39:37.899588000 596.234367s notice: All client connections closed.
+2018-08-24T17:39:37.899603000 596.234382s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-08-24T17:39:37.905757000 596.240536s notice: Storage engine shut down.
+2018-08-24T17:39:39.492169000 0.012460s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2018-08-24T17:39:39.500146000 0.020433s notice: Running on Darwin 17.5.0 x86_64
+2018-08-24T17:39:39.500252000 0.020537s notice: Loading data from directory /Users/yannickleroux/Development/websockets-rethinkdb/rethinkdb_data
+2018-08-24T17:39:39.551363000 0.071647s info: Automatically using cache size of 185 MB
+2018-08-24T17:39:39.552089000 0.072373s notice: Listening for intracluster connections on port 29015
+2018-08-24T17:39:39.596287000 0.116569s notice: Listening for client driver connections on port 28015
+2018-08-24T17:39:39.596404000 0.116687s notice: Listening for administrative HTTP connections on port 8080
+2018-08-24T17:39:39.596412000 0.116694s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-08-24T17:39:39.596414000 0.116696s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-08-24T17:39:39.596523000 0.116806s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-08-24T17:39:39.596527000 0.116809s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-08-24T17:39:39.596530000 0.116813s notice: Server ready, "yannicks_macbook_pro_home_x8s" ac796651-4e55-4ec6-83f3-8dfbcc98983c
+2018-08-24T17:39:40.636879000 1.157131s info: Table 9679500b-29ce-467b-9830-607f48d4f48a: Starting a new Raft election for term 5.
+2018-08-24T17:39:40.671134000 1.191385s info: Table 9679500b-29ce-467b-9830-607f48d4f48a: This server is Raft leader for term 5. Latest log index is 12.
+2018-08-24T17:39:40.834222000 1.354468s info: Table 5a8ead5f-a3e7-460a-9a56-13e0d831ebca: Starting a new Raft election for term 5.
+2018-08-24T17:39:40.863542000 1.383786s info: Table 5a8ead5f-a3e7-460a-9a56-13e0d831ebca: This server is Raft leader for term 5. Latest log index is 12.
+2018-08-24T17:39:41.051958000 1.572197s info: Table d30d2f1a-438f-4af3-8b7d-2e8f5707d515: Starting a new Raft election for term 5.
+2018-08-24T17:39:41.084365000 1.604604s info: Table d30d2f1a-438f-4af3-8b7d-2e8f5707d515: This server is Raft leader for term 5. Latest log index is 13.
+2018-08-24T17:40:13.949949000 34.469205s notice: Server got SIGINT from pid 17388, uid 501; shutting down...
+2018-08-24T17:40:13.950095000 34.469351s notice: Shutting down client connections...
+2018-08-24T17:40:13.950184000 34.469440s notice: All client connections closed.
+2018-08-24T17:40:13.950189000 34.469445s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-08-24T17:40:13.956861000 34.476117s notice: Storage engine shut down.
+2018-08-24T17:40:21.090820000 0.016083s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2018-08-24T17:40:21.097285000 0.022543s notice: Running on Darwin 17.5.0 x86_64
+2018-08-24T17:40:21.097406000 0.022662s notice: Loading data from directory /Users/yannickleroux/Development/websockets-rethinkdb/rethinkdb_data
+2018-08-24T17:40:21.133004000 0.058258s info: Automatically using cache size of 199 MB
+2018-08-24T17:40:21.133622000 0.058877s notice: Listening for intracluster connections on port 29015
+2018-08-24T17:40:21.181432000 0.106685s notice: Listening for client driver connections on port 28015
+2018-08-24T17:40:21.181662000 0.106916s notice: Listening for administrative HTTP connections on port 8080
+2018-08-24T17:40:21.181665000 0.106918s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-08-24T17:40:21.181688000 0.106941s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-08-24T17:40:21.181691000 0.106944s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-08-24T17:40:21.181693000 0.106946s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-08-24T17:40:21.181695000 0.106948s notice: Server ready, "yannicks_macbook_pro_home_x8s" ac796651-4e55-4ec6-83f3-8dfbcc98983c
+2018-08-24T17:40:22.344098000 1.269317s info: Table d30d2f1a-438f-4af3-8b7d-2e8f5707d515: Starting a new Raft election for term 6.
+2018-08-24T17:40:22.372501000 1.297719s info: Table d30d2f1a-438f-4af3-8b7d-2e8f5707d515: This server is Raft leader for term 6. Latest log index is 16.
+2018-08-24T17:40:22.413846000 1.339063s info: Table 5a8ead5f-a3e7-460a-9a56-13e0d831ebca: Starting a new Raft election for term 6.
+2018-08-24T17:40:22.449365000 1.374581s info: Table 5a8ead5f-a3e7-460a-9a56-13e0d831ebca: This server is Raft leader for term 6. Latest log index is 16.
+2018-08-24T17:40:22.985165000 1.910365s info: Table 9679500b-29ce-467b-9830-607f48d4f48a: Starting a new Raft election for term 6.
+2018-08-24T17:40:23.008444000 1.933643s info: Table 9679500b-29ce-467b-9830-607f48d4f48a: This server is Raft leader for term 6. Latest log index is 16.
